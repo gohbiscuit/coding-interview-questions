@@ -4,7 +4,7 @@
 
 // 		PROBLEM
 //		Prints the word representation of an input number
-//		Number range from 1-1000000 (for this problem, million onwards is not included)
+//		Number range from 0-1000000 (for this problem, millions onwards not included)
 
 //		Input: 4
 //		Output: Four
@@ -44,13 +44,13 @@ public class Solution
 	        
 	        sc.close();
 	        
-	        if(number > 0 && number < 1000000)
+	        if(number >= 0 && number < 1000000)
 	        {
 	        	System.out.println(ConvertNumberToString(number));
 	        }
 	        else
 	        {
-	        	System.out.println("Please enter positive numbers, range 1-99999 only.");
+	        	System.out.println("Please enter positive numbers, range 0-99999 only.");
 	        }
     	}
     	catch(NumberFormatException nfe)
