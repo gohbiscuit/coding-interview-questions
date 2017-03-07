@@ -17,7 +17,7 @@ Input: 23
 Output: twenty three
 
 Input: 3214
-Output: Three thousand and fourteen
+Output: thirty two and fourteen
 
 ## Language
 
