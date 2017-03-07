@@ -8,7 +8,7 @@ Compilation of sample coding interview questions
 
 PROBLEM
 Prints the word representation of an input number
-Number range from 1-1000000 (for this problem, million onwards is not included)
+Number range from 0-1000000 (for this problem, million onwards is not included)
 
 Input: 4
 Output: Four
