@@ -77,8 +77,14 @@ public class Solution
  
     private static String ConvertNumberToString(int input)
     {
+      if(input == 0)
+      {
+         return "zero";
+      }
+    
     	int thousands_index = 0;
     	String word = "";
+   
     	do
     	{
     		/* get the remainder less than a thousand */
@@ -112,11 +118,6 @@ public class Solution
 		 //PrintDebug(digit, ten, hundred);
 		  
 		 /* One to Nine */
-		 if(num == 0)
-		 {
-			 return "zero";
-		 }
-		  
 		 if(digit > 0)
 		 {
 			 digits_string = single_digits[digit-1];
