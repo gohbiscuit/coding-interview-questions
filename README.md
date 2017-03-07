@@ -28,7 +28,3 @@ Java
 ## Contributors
 
 Author (Edwin)
-
-## License
-
-Opensource.
