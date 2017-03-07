@@ -58,10 +58,10 @@ public class Solution
         	}
         	else
         	{
-        		System.out.println("negative " + ConvertNumberToString(number));
+        		System.out.println("negative " + ConvertNumberToString(number * -1));
         	}
     	}
-    	catch(NumberFormatException nfe)
+    	catch(Exception e)
     	{
     		System.out.println("Invalid input, please try again.");
     	}
