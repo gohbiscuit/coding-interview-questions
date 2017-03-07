@@ -1,10 +1,8 @@
 # coding-interview-questions
-Compilation of sample coding interview questions 
-
-
-# coding-interview-questions
 
 Compilation of sample coding interview questions 
+
+1. Number to Word
 
 ## 1. Number to Word
 
