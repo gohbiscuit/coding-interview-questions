@@ -13,7 +13,7 @@
 //		Output: twenty three
 
 //		Input: 3214
-//		Output: Three thousand and fourteen
+//		Output: Thirty two thousand and fourteen
 
 import java.util.Scanner;
 	
